@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap ;
+    gap: 20px;
+    padding: 20px;
+}
+.child1, .child4{
+    width: calc(100% - 20px);
+    height: 50px;
+    background-color: #96caca;
+}
+.child2, .child3{
+    width: calc(50% - 20px);
+    height: 150px;
+    background-color: #eb5c48;
+}
+.child3{
+    background-color: #f7b343;
+}
+.child5, .child6, .child7{
+    width: calc(33.3% - 20px);
+    height: 150px;
+    background-color: #3f5e75;
+}
+.child6{
+    background-color: #ed7b71;
+}
+.child7{
+    background-color: #f5b343;
+}
+@media screen and (max-width: 1024px) {
+.container > div{
+    width: 100vw;
+}
+}

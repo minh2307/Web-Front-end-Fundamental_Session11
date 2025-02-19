@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #828689;
+    font-size: 50px;
+}
+.child1{
+    width: 100%;
+    min-height: 30px;
+    background-color: #5995db;
+}
+.child2{
+    width: 100%;
+    min-height: 180px;
+    background-color: #b2d6ff;
+}
+.child3, .child4, .child5{
+    width: 33.3%;
+    min-height: 220px;
+}
+.child3{
+    background-color: #f5cf8d;
+}
+.child4{
+    background-color: #c8c6fa;
+}
+.child5{
+    background-color: #f09a9d;
+}
+.child6{
+    width: 100%;
+    min-height: 80px;
+    background-color: #d7e9fe;
+}
+.child7{
+    width: 100%;
+    min-height: 250px;
+    background-color: #ebedf0;
+}
