@@ -17,7 +17,7 @@
 }
 .child1{
     width: 100%;
-    min-height: 30px;
+    min-height: 30px !important;
     background-color: #5995db;
 }
 .child2{
@@ -47,4 +47,28 @@
     width: 100%;
     min-height: 250px;
     background-color: #ebedf0;
+}
+@media screen and (max-width: 1200px) {
+    div.child7{order: 1;}
+    div.child6{order: 2;}
+    div.child5{order: 4;}
+    div.child4{order: 5;}
+    div.child3{order: 3;}
+    .child6, .child3, .child4, .child5{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 768px) {
+    div.child7{order: 1;}
+    div.child6{order: 2;}
+    div.child5{order: 4;}
+    div.child4{order: 5;}
+    div.child3{order: 3;}
+    .container div{
+        width: 100%;
+        min-height: 100px;
+    }
+    .child7{
+        min-height: 200px !important;
+    }
 }
